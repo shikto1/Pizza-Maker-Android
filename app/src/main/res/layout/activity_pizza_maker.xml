@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/normalPadding"
+    tools:context=".PizzaMakerActivity">
+
+    <TextView
+        android:id="@+id/totalPriceTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/largeTextSize"
+        android:textStyle="bold"
+        tools:text="TOTAL: 175" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/pizzaSizeRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/normalPadding"
+            android:paddingBottom="@dimen/normalPadding">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/size"
+                android:textColor="@color/black"
+                android:textSize="@dimen/normalTextSize" />
+
+            <TextView
+                android:id="@+id/pizzaSizeTv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="Regular"
+                android:textSize="@dimen/normalTextSize"
+                android:textColor="@color/offWhite"
+                tools:ignore="HardCodedText" />
+        </LinearLayout>
+
+        <View style="@style/vertical_divider" />
+
+        <LinearLayout
+            android:id="@+id/pizzaTypeRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/normalPadding"
+            android:paddingBottom="@dimen/normalPadding">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pizzaType"
+                android:textColor="@color/black"
+                android:textSize="@dimen/normalTextSize" />
+
+            <TextView
+                android:id="@+id/pizzaTypeTv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="Thin Crust"
+                android:textSize="@dimen/normalTextSize"
+                android:textColor="@color/offWhite"
+                tools:ignore="HardCodedText" />
+        </LinearLayout>
+
+        <View style="@style/vertical_divider" />
+
+        <LinearLayout
+            android:id="@+id/cheeseTypeRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/normalPadding"
+            android:paddingBottom="@dimen/normalPadding">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/cheeseType"
+                android:textColor="@color/black"
+                android:textSize="@dimen/normalTextSize" />
+
+            <TextView
+                android:id="@+id/cheeseTypeTv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="White"
+                android:textSize="@dimen/normalTextSize"
+                android:textColor="@color/offWhite"
+                tools:ignore="HardCodedText" />
+        </LinearLayout>
+
+        <View style="@style/vertical_divider" />
+
+        <LinearLayout
+            android:id="@+id/sauceTypeRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/normalPadding"
+            android:paddingBottom="@dimen/normalPadding">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/sauce"
+                android:textColor="@color/black"
+                android:textSize="@dimen/normalTextSize" />
+
+            <TextView
+                android:id="@+id/sauceTypeTv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="Tomato"
+                android:textSize="@dimen/normalTextSize"
+                android:textColor="@color/offWhite"
+                tools:ignore="HardCodedText" />
+        </LinearLayout>
+
+
+        <View style="@style/vertical_divider" />
+
+        <LinearLayout
+            android:id="@+id/toppingRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/normalPadding"
+            android:paddingBottom="@dimen/normalPadding">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/toppings"
+                android:textColor="@color/black"
+                android:textSize="@dimen/normalTextSize" />
+
+            <TextView
+                android:id="@+id/toppingsTv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="Onion\nPepperoni\nGreen Pepper"
+                android:textSize="@dimen/normalTextSize"
+                android:textColor="@color/offWhite"
+                tools:ignore="HardCodedText" />
+        </LinearLayout>
+
+        <View style="@style/vertical_divider" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <dimen name="dp_One">1dp</dimen>
+    <dimen name="dp_Two">2dp</dimen>
+    <dimen name="dp_Three">3dp</dimen>
+    
+    // Padding.........
+    <dimen name="xxxSmallPadding">2dp</dimen>
+    <dimen name="xxSmallPadding">4dp</dimen>
+    <dimen name="xSmallPadding">6dp</dimen>
+    <dimen name="smallPadding">8dp</dimen>
+    <dimen name="mediumPadding">14dp</dimen>
+    <dimen name="normalPadding">16dp</dimen>
+    <dimen name="largePadding">20dp</dimen>
+
+    // Margin.........
+    <dimen name="xxxSmallMargin">2dp</dimen>
+    <dimen name="xxSmallMargin">4dp</dimen>
+    <dimen name="xSmallMargin">6dp</dimen>
+    <dimen name="smallMargin">8dp</dimen>
+    <dimen name="mediumMargin">12dp</dimen>
+    <dimen name="normalMargin">16dp</dimen>
+    <dimen name="largeMargin">20dp</dimen>
+    
+    // Text Size
+    <dimen name="xxxSmallTextSize">2sp</dimen>
+    <dimen name="xxSmallTextSize">4sp</dimen>
+    <dimen name="xSmallTextSize">6sp</dimen>
+    <dimen name="smallTextSize">8sp</dimen>
+    <dimen name="mediumTextSize">12sp</dimen>
+    <dimen name="normalTextSize">16sp</dimen>
+    <dimen name="largeTextSize">20sp</dimen>
+
+</resources>

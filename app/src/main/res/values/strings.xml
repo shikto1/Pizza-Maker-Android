@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Pizza Maker</string>
+
+    <string name="size">Size*</string>
+    <string name="pizzaType">Pizza Type*</string>
+    <string name="cheeseType">Cheese Type*</string>
+    <string name="sauce">Sauce*</string>
+    <string name="toppings">Toppings</string>
+
+</resources>
