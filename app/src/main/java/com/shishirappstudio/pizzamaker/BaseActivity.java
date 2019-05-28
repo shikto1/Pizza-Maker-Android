@@ -23,6 +23,9 @@ public abstract class BaseActivity extends AppCompatActivity {
 
     @Override
     protected void onDestroy() {
+        if(viewUnbinder != null){
+            viewUnbinder.unbind();
+        }
         super.onDestroy();
     }
 
